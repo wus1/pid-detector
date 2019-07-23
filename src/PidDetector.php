@@ -19,6 +19,7 @@ class PidDetector
                 $pid = (int)trim(file_get_contents($this->filename));
                 if (posix_kill($pid, 0)) {
                     $this->already_running = true;
+                    $this->serveModificationTime();
                 }
             }
         } else {
