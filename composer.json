@@ -1,0 +1,32 @@
+{
+  "name": "wus1/yii2-pid-detector",
+  "description": "PID Detector for Yii2 console commands",
+  "keywords": [
+    "yii2",
+    "console",
+    "command",
+    "cli"
+  ],
+  "homepage": "https://github.com/wus1/yii2-pid-detector",
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/wus1/yii2-pid-detector/issues?state=open",
+    "source": "https://github.com/wus1/yii2-pid-detector"
+  },
+  "authors": [
+    {
+      "name": "Patrycjusz Ożlański",
+      "email": "patrycjusz.ozlanski@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "wus1\\yii2-pid-detector\\": "src"
+    }
+  }
+}
